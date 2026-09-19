@@ -1,0 +1,138 @@
+Q: What is SQL injection?
+A: SQL injection is an attack where a hacker inserts malicious code into a database query through a form field, URL, or input box. It can let them read, delete, or modify your database, including customer data and passwords. Fix it by using parameterized queries and never building SQL strings directly from user input.
+
+Q: What is a CVE?
+A: CVE stands for Common Vulnerabilities and Exposures. It is a public list of known security flaws in software, maintained so that vendors and researchers use the same reference for the same bug. Each CVE has a unique ID like CVE-2024-1234 and is usually paired with a severity score from 0 to 10.
+
+Q: What does CVSS 10 mean?
+A: CVSS stands for Common Vulnerability Scoring System, a standard way to rate how dangerous a security flaw is. A CVSS score of 10 is the highest severity possible. It means the vulnerability is critical, often easy to exploit remotely with no login required, and can cause maximum damage such as full system takeover.
+
+Q: What is ransomware?
+A: Ransomware is malicious software that locks or encrypts a victim's files so they can no longer be accessed, then demands payment to restore them. Attackers often threaten to leak stolen data too, a tactic known as double extortion. It usually spreads through phishing emails, infected attachments, or unpatched software.
+
+Q: What is a zero-day vulnerability?
+A: A zero-day vulnerability is a security flaw that is discovered and exploited before the software vendor knows about it or has released a fix. Because there is no patch available yet, attackers have a window of time where their attack is very hard to defend against.
+
+Q: What is phishing and how do I spot it?
+A: Phishing is when an attacker sends a fake email, text, or message pretending to be a trusted source, like a bank or coworker, to trick you into clicking a link, entering a password, or downloading malware. Red flags include urgent or threatening language, mismatched sender addresses, generic greetings, unexpected attachments, and links that don't match the real company's website.
+
+Q: What is two-factor authentication?
+A: Two-factor authentication, often shortened to 2FA, requires you to prove your identity in two different ways when logging in, usually a password plus a code from your phone or an authenticator app. It protects your account even if your password is stolen, because the attacker would still need the second factor.
+
+Q: What is a firewall?
+A: A firewall is a security tool, either hardware or software, that monitors incoming and outgoing network traffic and blocks anything that doesn't match its allowed rules. It acts like a checkpoint between your private network and the internet, stopping many attacks before they reach your systems.
+
+Q: What is malware?
+A: Malware is a general term for any software designed to damage, disrupt, or gain unauthorized access to a computer system. It includes viruses, worms, trojans, ransomware, and spyware. It typically spreads through infected downloads, email attachments, or compromised websites.
+
+Q: What is social engineering?
+A: Social engineering is the practice of manipulating people, rather than hacking systems, to gain access to information or resources. Attackers might impersonate IT support, a vendor, or an executive to trick employees into revealing passwords or granting access. It works because it exploits trust and urgency instead of technical flaws.
+
+Q: What is cross-site scripting (XSS)?
+A: Cross-site scripting, or XSS, is an attack where a hacker sneaks malicious code into a web page that other visitors then load in their browser. The code can steal login sessions, redirect users, or show fake forms. Fix it by cleaning and escaping any user-supplied text before showing it on a page.
+
+Q: What is CSRF (cross-site request forgery)?
+A: Cross-site request forgery, or CSRF, tricks a logged-in user's browser into sending an unwanted request, like changing a password or transferring money, to a site they trust. It works because the browser automatically attaches login cookies. Fix it with anti-forgery tokens and SameSite cookies.
+
+Q: What is a DDoS attack?
+A: A distributed denial-of-service attack, or DDoS attack, floods a website or service with huge amounts of fake traffic from many computers at once so real customers cannot get through. It causes downtime and lost revenue. Protect against it with traffic filtering, a content delivery network, and rate limiting.
+
+Q: What is a man-in-the-middle attack?
+A: A man-in-the-middle attack happens when an attacker secretly sits between two parties, such as you and a website, and reads or changes the messages passing through. It is common on unsecured public Wi-Fi. Protect yourself by using HTTPS sites, a VPN, and avoiding untrusted networks.
+
+Q: What is a brute force attack?
+A: A brute force attack is when an attacker tries a huge number of passwords or keys until one works. Short and simple passwords fall quickly. Defend with long unique passwords, account lockouts after failed attempts, and multi-factor authentication.
+
+Q: What is credential stuffing?
+A: Credential stuffing is when attackers take email and password pairs leaked from one breach and automatically try them on many other sites, hoping people reused the same password. Protect yourself by using a different password for every account and turning on two-factor authentication.
+
+Q: What is multi-factor authentication (MFA)?
+A: Multi-factor authentication, or MFA, asks for two or more proofs of identity when you log in, such as a password plus a code from an app or a fingerprint. Even if your password is stolen, the attacker cannot get in without the extra factor. App-based codes or hardware keys are safer than text messages.
+
+Q: What is a VPN?
+A: A VPN, short for virtual private network, creates an encrypted tunnel between your device and another network so people on the same Wi-Fi or your internet provider cannot see your traffic. Businesses use it to give staff safe access to internal systems. It does not make you anonymous or protect you from malware.
+
+Q: What is encryption?
+A: Encryption scrambles readable information into unreadable code that only someone with the right key can turn back into the original. It protects data stored on devices and data travelling across the internet. If encrypted data is stolen, it is useless to the thief without the key.
+
+Q: What is an SSL or TLS certificate?
+A: An SSL or TLS certificate is a digital file that proves a website is really who it claims to be and enables an encrypted connection, shown as the padlock and https in your browser. If a certificate is expired or invalid, browsers warn visitors and traffic may not be protected. Renew certificates before they expire and only use ones from trusted providers.
+
+Q: What is a digital certificate?
+A: A digital certificate is an electronic document that links a public key to a person, device, or website, and is signed by a trusted authority to prove it is genuine. It works like a digital passport. Expired or forged certificates can let attackers impersonate trusted services.
+
+Q: What is a patch and why does patching matter?
+A: A patch is a software update that fixes a security flaw or bug. Attackers actively scan for systems missing known patches, so delaying updates leaves the door open. Turn on automatic updates and apply critical patches as soon as they are released.
+
+Q: What is a botnet?
+A: A botnet is a network of infected computers or devices secretly controlled by an attacker, often used to send spam, steal data, or launch DDoS attacks. Owners usually do not know their device is part of it. Keep devices updated, change default passwords, and use security software.
+
+Q: What is spyware?
+A: Spyware is malicious software that secretly watches what you do, such as recording keystrokes, capturing screens, or collecting passwords, and sends it to an attacker. It often arrives bundled with free software or through malicious links. Use trusted security software and only install apps from official sources.
+
+Q: What is a keylogger?
+A: A keylogger is a tool, either software or hardware, that records every key you press so an attacker can capture passwords and messages. It is often hidden inside malware. Use a password manager, keep your system updated, and run security scans.
+
+Q: What is a rootkit?
+A: A rootkit is malware designed to hide itself deep inside a computer and give an attacker long-term hidden control. Because it hides from normal tools, it is hard to detect and remove. Often the safest fix is to reinstall the system from a clean backup.
+
+Q: What is a backdoor?
+A: A backdoor is a hidden way to get into a system that bypasses normal login. Attackers may plant one after breaking in so they can return later. Some backdoors are also left in software by mistake or on purpose by developers. Regular security audits and monitoring help find them.
+
+Q: What is a supply chain attack?
+A: A supply chain attack targets a trusted software vendor or supplier instead of the final victim, so the malicious code reaches many customers through a normal update. It is dangerous because people trust the source. Reduce risk by vetting vendors, checking software signatures, and monitoring what your tools connect to.
+
+Q: What is smishing and vishing?
+A: Smishing is phishing by text message, and vishing is phishing by phone call. In both, the attacker pretends to be a bank, delivery company, or authority to pressure you into sharing codes, passwords, or payments. Never act on urgent requests; hang up or ignore the text and contact the organization using an official number.
+
+Q: What is a deepfake?
+A: A deepfake is a fake video, image, or voice recording created with artificial intelligence to look and sound like a real person. Criminals use them to impersonate executives or relatives and trick people into sending money. Verify unusual requests through a second channel, such as a call to a known number.
+
+Q: What is a password manager?
+A: A password manager is an app that creates, stores, and fills in strong unique passwords for all your accounts, so you only need to remember one master password. It helps prevent password reuse. Choose a reputable one and protect it with multi-factor authentication.
+
+Q: What is the CIA triad?
+A: The CIA triad is a basic model for information security made of three goals: confidentiality (only the right people see data), integrity (data is not secretly changed), and availability (systems and data are there when needed). Security decisions are often judged by which of these three goals they protect.
+
+Q: What is zero trust?
+A: Zero trust is a security approach that assumes no user or device is trusted automatically, even inside the company network. Every request must be verified each time using identity, device health, and permissions. It limits how far an attacker can move after getting in.
+
+Q: What is the principle of least privilege?
+A: The principle of least privilege means giving each person or program only the access they need to do their job and nothing more. If an account is compromised, the attacker can do less damage. Review access rights regularly and remove permissions that are no longer needed.
+
+Q: What is penetration testing?
+A: Penetration testing, often called pen testing, is when authorized security professionals try to break into a system the way a real attacker would, to find weaknesses before criminals do. The result is a report of what was found and how to fix it. It should only ever be done with written permission.
+
+Q: What is a SIEM?
+A: A SIEM, short for security information and event management, is a tool that collects logs and alerts from across a company's systems in one place and looks for signs of an attack. It helps security teams spot and investigate incidents faster.
+
+Q: What is EDR?
+A: EDR stands for endpoint detection and response. It is security software on laptops and servers that watches for suspicious behaviour, alerts the security team, and can isolate an infected device. It goes beyond traditional antivirus by catching attacks based on what they do, not just known signatures.
+
+Q: What is GDPR?
+A: GDPR is the General Data Protection Regulation, a European Union law that controls how organizations collect, use, and protect personal data of people in the EU. Companies must be transparent, protect the data, and report breaches within 72 hours. Fines can reach 4 percent of yearly global revenue.
+
+Q: What is HIPAA?
+A: HIPAA is the Health Insurance Portability and Accountability Act, a United States law that requires healthcare providers and their partners to protect patients' private health information. Breaches or careless handling can lead to heavy fines.
+
+Q: What is PCI DSS?
+A: PCI DSS is the Payment Card Industry Data Security Standard, a set of rules for any business that stores, processes, or transmits credit card data. It requires things like encryption, access control, and regular testing. Businesses that fail to comply can lose the ability to take card payments.
+
+Q: What is ISO 27001?
+A: ISO 27001 is an international standard for running an information security management system. A company that is certified has shown an independent auditor that it manages security risks in an organized, documented way. Customers often ask for it as proof of good security practice.
+
+Q: What is SOC 2?
+A: SOC 2 is an audit report showing that a service company protects customer data according to trust criteria such as security, availability, and confidentiality. Business customers often request a SOC 2 report before trusting a vendor with their data.
+
+Q: What is a data breach?
+A: A data breach is when private or protected information is accessed, stolen, or exposed by someone who should not have it. It can lead to identity theft, fraud, fines, and loss of customer trust. If you are affected, change passwords, turn on multi-factor authentication, and watch your accounts for unusual activity.
+
+Q: What is an insider threat?
+A: An insider threat is a security risk that comes from someone inside the organization, such as an employee or contractor, who misuses their access on purpose or by accident. Limiting access, monitoring activity, and training staff reduce the risk.
+
+Q: What is an API key and why keep it secret?
+A: An API key is a secret code that lets a program access a service on your behalf. If it leaks, for example by being pasted into public code, anyone can use your account and run up costs or steal data. Store keys in environment variables or a secrets manager, never in source code.
+
+Q: What is a firewall versus antivirus?
+A: A firewall controls which network connections are allowed in and out of your device or network, while antivirus scans files and programs for known malware. They protect against different problems, so you should use both.
+
